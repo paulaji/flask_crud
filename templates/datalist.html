@@ -1,11 +1,6 @@
 {% for testlist in testlists %}
-    <h4>ID: </h4>
-    <p>{{testlist.id}}</p>
-    <hr/>
-    <h4>URL: </h4>
-    <p>{{testlist.url}}</p>
-    <hr/>
-    <h4>COMMENT: </h4>
-    <p>{{testlist.comment}}</p>
-    <hr/>
+    <span><strong>ID: </strong>{{testlist.id}}</span>	
+    <span><strong>URL: </strong>{{testlist.url}}</span>	
+    <span><strong>COMMENT: </strong>{{testlist.comment}}</span>	
+    <br/>
 {% endfor %}
