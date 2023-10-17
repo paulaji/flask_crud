@@ -26,7 +26,7 @@ create_tables()
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return render_template("startpage.html")
 
 @app.route("/data/create", methods=['GET', 'POST'])
 def create():
